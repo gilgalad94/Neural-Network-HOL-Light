@@ -295,7 +295,7 @@ Terms
 
 # Let's Begin
 
-(* ================  Standard Neural Network with absolute value  ================== *)
+(* Standard Neural Network with absolute value *)
 
 
 
@@ -307,7 +307,7 @@ prioritize_real();;
 
 
 
-(* ================ Hopfield Neuron definition, where e = energy_function; x pow n = generic input value ; inp 1,inp2 = input; b = bias ================== *)
+(* Hopfield Neuron definition, where e = energy_function; x pow n = generic input value ; inp 1,inp2 = input; b = bias *)
 
 
 
@@ -321,7 +321,7 @@ out = e(x pow n * inp1 + x pow n * inp2 + b):real`;;
 
 
 
-(*========= energy function e definition: it allows to place the neuron in a "fire" condition. e.g., activation to perform a certain activity ============= *)
+(* energy function e definition: it allows to place the neuron in a "fire" condition. e.g., activation to perform a certain activity *)
 
 
 
@@ -334,7 +334,7 @@ else &1`;;
 
 
 
-(* =================== two-input percepetron definition: where h = activation function, w1,w2 weights  e b = bias ================== *)
+(* two-input percepetron definition: where h = activation function, w1,w2 weights  e b = bias *)
 
 
 
@@ -347,7 +347,7 @@ out = h(w1*inp1 + w2*inp2 + b):real`;;
 
 
 
-(* ================== hopfield_neuron application to the energy_function: the neuron is activated in order to execute a task ================= *)
+(* hopfield_neuron application to the energy_function: the neuron is activated in order to execute a task *)
 
 
 
@@ -385,13 +385,13 @@ let HOPFIELD_NEURON = top_thm();;
 
 
 
-(* =============== building the standard neural network ================ *)
+(* building the standard neural network *)
 
 
 
 
 
-(* =============== one-input perceprton1 demonstration:  where r = activity function, w = weight, b = bias, r = Relu_function: which allows to process the input ================ *)
+(* one-input perceprton1 demonstration:  where r = activity function, w = weight, b = bias, r = Relu_function: which allows to process the input *)
 
 
 
@@ -405,7 +405,7 @@ let perceptron1 = new_definition
 
 
 
-(* ================== relu_function definition ================= *)
+(* relu_function definition *)
 
 
 
@@ -418,7 +418,7 @@ let relu_function = new_definition
 
 
 
-(* ================ application of relu_function to perceptron1 ==================== *)
+(* application of relu_function to perceptron1 *)
 
 
 
@@ -445,7 +445,7 @@ let lin_perceptron2 = new_definition
 
 
 
-(* ===================== buildng of the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The seconfìd layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function ===================== *)
+(* buildng of the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The seconfìd layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function *)
 
 
 
