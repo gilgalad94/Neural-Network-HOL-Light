@@ -445,7 +445,7 @@ let lin_perceptron2 = new_definition
 
 
 
-(* buildng of the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The second layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function *)
+(* building the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The second layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function *)
 
 
 
