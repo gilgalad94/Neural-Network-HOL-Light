@@ -334,7 +334,7 @@ else &1`;;
 
 
 
-(* two-input percepetron definition: where h = activation function, w1,w2 weights  e b = bias *)
+(* two-input perceptron definition: where h = activation function, w1,w2 weights  e b = bias *)
 
 
 
@@ -391,7 +391,7 @@ let HOPFIELD_NEURON = top_thm();;
 
 
 
-(* one-input perceprton1 demonstration:  where r = activity function, w = weight, b = bias, r = Relu_function: which allows to process the input *)
+(* one-input perceptron1 demonstration:  where r = activity function, w = weight, b = bias, r = Relu_function: which allows to process the input *)
 
 
 
@@ -432,7 +432,7 @@ let relu_perceptron1 = new_definition
 
 
 
-(* perceptron2 applicazione lineare *)
+(* perceptron2 linear application *)
 
 
 
@@ -445,7 +445,7 @@ let lin_perceptron2 = new_definition
 
 
 
-(* buildng of the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The seconfìd layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function *)
+(* buildng of the extended network made of one input (inp variable) and one output (out variable).The first layer is made of two perceptron relu, where the two outputs are int1, int2. The second layer is made of lin_perceptron2. And then, we have the final state. Such network can implement the absolute value function *)
 
 
 
